@@ -635,3 +635,150 @@ a{
     background: #555;
     color: #fff;
 }
+/* Contact Us Section */
+
+.Contact{
+    padding: 100px 0px;
+}
+.contactHeading{
+    padding-bottom: 40px;
+    text-align: center;
+}
+.contactHeading h3{
+    font-size: 20.8px;
+    line-height: 31.2px;
+    color: #767676;
+    font-weight: 300;
+}
+.contactHeading h2{
+    font-size: 44.8px;
+    line-height: 62.72px;
+    font-weight: 400;
+    color: #000;
+}
+.contactForm{
+    width: 670px;
+    margin: auto;
+    box-shadow:0px 0px 10px 0px rgba(119, 119, 119, 0.377);
+    padding: 50px;
+    border-radius: 5px;
+}
+.contactH{
+    padding-bottom: 30px;
+}
+.contactH h2{
+    font-size: 25.8;
+    line-height: 38.4px;
+    color: #000;
+    text-align: center;
+    font-weight: 500;
+    padding: 0px 0px 16px;
+    margin-bottom: 20px;
+}
+
+#Email{
+    width: 98%;
+    /* height: 40px; */
+    font-size: 20.8px;
+    line-height: 20.8px;
+    letter-spacing: -1px;
+    margin: 8px 3px;
+    padding: 20px 15px; 
+    box-sizing: border-box;
+    color: #767676;
+    border: 0.5px solid #ddd;
+    border-radius: 5px;
+    outline: 0;
+    transition: 0.5s;
+}
+#Email:focus{
+    border: 2px solid #6278df;
+    box-shadow: 0px 0px 20px 0px #6279df57;
+}
+
+#Name{
+    width: 48%;
+    font-size: 20.8px;
+    line-height: 20.8px;
+    letter-spacing: -1px;
+    margin: 4px;
+    padding: 20px 15px; 
+    box-sizing: border-box;
+    color: #767676;
+    border: 0.5px solid #ddd;
+    border-radius: 5px;
+    outline: 0;
+    margin-right: 2px;
+    margin-left: 9px;
+    transition: 0.5s;
+    
+}
+#Name:focus{
+    border: 2px solid #6278df;
+    box-shadow: 0px 0px 20px 0px #6279df57;
+}
+#Number{
+    width: 48%;
+    font-size: 20.8px;
+    line-height: 20.8px;
+    letter-spacing: -1px;
+    margin: 4px;
+    padding: 20px 15px; 
+    box-sizing: border-box;
+    color: #767676;
+    border: 0.5px solid #ddd;
+    border-radius: 5px;
+    outline:0;
+    transition: 0.5s;
+}
+#Number:focus{
+    border: 2px solid #6278df;
+    box-shadow: 0px 0px 20px 0px #6279df57;
+}
+
+textarea{
+    width: 98%;
+    font-size: 20.8px;
+    line-height: 20.8px;
+    letter-spacing: -1px;
+    margin: 4px;
+    padding: 20px 15px; 
+    box-sizing: border-box;
+    color: #767676;
+    border: 0.5px solid #ddd;
+    border-radius: 5px;
+    outline:0;
+    transition: 0.5s;
+}
+textarea:focus{
+    border: 2px solid #6278df;
+    box-shadow: 0px 0px 20px 0px #6279df57;
+}
+.formb{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.conbtn{
+    padding: 20px 30px;
+    background: rgb(98, 120, 223);
+    display: inline-block;
+
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 20.8px;
+    line-height: 31.8px;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.5s;
+    border: 2px solid transparent;
+    
+}
+
+.conbtn:hover{
+    background-color: #fff;
+    color: #6278df;
+    border: 2px solid #6278df;
+    box-shadow: 0px 0px 20px 0px #6278df;
+
+}
