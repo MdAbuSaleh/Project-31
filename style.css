@@ -375,3 +375,96 @@ a{
     width: 100%;
     cursor: pointer;
  }
+
+ /* pricing-section */
+ .pricing-sec{
+     padding: 100px 0px;
+     background: #F7F9FF;
+ }
+
+ .p-heading{
+     margin-bottom: 40px;
+     text-align: center;
+ }
+ .p-heading h3{
+     font-size: 57.6px;
+     line-height: 63.36px;
+     padding: 0px 0px 24px;
+     font-weight: 400;
+     color: #000;
+
+ }
+ .p-heading h4{
+    font-size: 25.6px;
+    line-height: 38.36px;
+    padding: 0px 0px 24px;
+    font-weight: 300;
+    color: #767676;
+ }
+ .pricingSection{
+     width: 1000px;
+     margin: 0px auto;
+ }
+ .pricingIteams{
+     width: 48%;
+     margin-right: 2%;
+     background-color: #fff;
+     border-radius: 5px;
+     padding: 30px;
+     padding-left: 40px;
+     box-sizing: border-box;
+     
+ }
+ .pricingIteams:last-child{
+     margin-right: 0;
+ }
+ .pricingIteams h3{
+     font-size: 44.8px;
+     line-height: 62.72px;
+     font-weight: 500;
+ }
+ .pricingIteams p{
+     font-size: 20.8px;
+     line-height: 31.2px;
+     font-weight: 300;
+     color: #767676;
+     padding: 20px 0px;
+ }
+ .p-list{}
+ .p-list span{
+     display: block;
+     font-size: 20.8px;
+     line-height: 31.2px;
+     font-weight: 300;
+     color: #767676;
+     padding: 20px 0px;
+ }
+ .p-list span i{
+     font-size: 40px;
+     width: 25px;
+     margin-right: 30px;
+     color: #6278df;
+ }
+.P-btn{
+    width: 100%;
+    margin: auto;
+}
+ .p-btn{
+     background: #fff;
+     box-shadow: 0px 0px 20px 0px rgba(119, 119, 119, 0.555);
+     display: block;
+     padding: 20px 40px;
+     text-align: center;
+     margin: 20px 0px;
+     border-radius: 5px;
+    font-size: 20.8px;
+    line-height: 31.2px;
+    font-weight: 600;
+    color: #6278df;
+    transition: 0.5s;
+
+ }
+ .pricingIteams:hover .p-btn{
+     background: #6278df;
+     color: #fff;
+ }
