@@ -247,3 +247,30 @@ a{
     margin-top: 20px;
     display: inline-block;
  }
+ /* Improve */
+ .Improve{
+     padding: 100px 0px;
+     background: #F7F9FF;
+ }
+ .improvedLeft{
+     width: 65%;
+    margin-right: 3%;
+ }
+ .improvedLeft h2{
+     margin-top: 150px;
+     font-size: 44.8px;
+     line-height: 62.72px;
+     font-weight: 500;
+ }
+ .improvedLeft p{
+     padding: 24px 0px 8px;
+     font-size: 20.8px;
+     line-height: 31.2px;
+     font-weight: 400;
+     color: #232323;
+     text-align: justify;
+ }
+
+ .improvedRight{
+     width: 30%;
+ }
