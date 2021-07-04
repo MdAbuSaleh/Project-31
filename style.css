@@ -335,3 +335,43 @@ a{
      line-height: 22.24px;
      font-weight: 300;
  }
+
+ /* ApplicationTop */
+ .ApplicationTop{
+     padding: 100px 0px;
+ }
+ .applicationHeading h3{
+     font-size: 44.8px;
+     line-height: 62.72px;
+     padding:0px 0px 24px;
+     font-weight: 400;
+     color: #000;
+     margin-bottom: 50px;
+     text-align: center;
+ }
+ .Application{
+     width: 31%;
+     margin-right: 2%;
+     margin-bottom: 2%;
+     position: relative;
+     transition: 0.5s;
+ }
+ .A-image img{
+     max-width: 100%;
+     cursor: pointer;
+     display: block;
+     
+ }
+ .Application::before{
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 0;
+     height: 100%;
+     background: #6279df79;
+ }
+ .Application:hover::before{
+    width: 100%;
+    cursor: pointer;
+ }
