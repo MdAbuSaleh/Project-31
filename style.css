@@ -468,3 +468,78 @@ a{
      background: #6278df;
      color: #fff;
  }
+ .user{
+     padding: 100px 0px;
+ }
+ .user-heading{
+    text-align: center;
+ }
+ .user-heading h2{
+     font-size: 25.6px;
+     line-height: 38.25px;
+     font-weight: 300;
+     color: #767676;
+     padding: 0px 0px 16px;
+ }
+ .user-heading h1{
+     font-size: 44.48px;
+     line-height: 62.72px;
+     font-weight: 400;
+     color: #000;
+
+ }
+ .user-heading span{
+     font-size: 88px;
+     line-height: 88px;
+     font-weight: 400;
+     color: #cccc;
+     margin: 15px 0px;
+     display: block;
+ }
+ .user-heading p{
+     font-size: 20.8px;
+     line-height: 31.5px;
+     color: #767676;
+     margin: 15px 0px;
+     width: 700px;
+     text-align: center;
+     display: inline-block;
+ }
+
+ .user-Iteam{
+     width: 500px;
+     margin: 0 auto;
+     margin-top: 30px;
+ }
+ .u-img{
+    max-width: 100%;
+    width: 250px;
+    text-align: right;
+ }
+ .u-img img{
+     display: inline-block;
+     width: 80px;
+     border-radius: 50%;
+     
+ }
+ .u-Bio{
+     
+     width: 230px;
+     height: auto;
+     margin-top: 15px;
+     text-align: left;
+     margin-left: 20px;
+ }
+ .u-Bio h3{
+    font-size: 20.8px;
+    line-height: 31.2px;
+    font-weight: 500;
+    color: #000;
+ }
+ .u-Bio span{
+    font-size: 16px;
+    line-height: 22.2px;
+    font-weight: 400;
+    color: #767676;
+ }
+ }
