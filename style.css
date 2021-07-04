@@ -221,3 +221,29 @@ a{
      color: rgb(98, 120, 223);;
 
  }
+ /* Count */
+
+ .count{
+     padding: 70px 0px;
+     
+ }
+ .OurCount{
+     text-align: center;
+ }
+ .countIteams{
+     width: 25%;
+ }
+ .countIteams h1{
+     font-size: 57.6px;
+     line-height: 63.36px;
+     font-weight: 500;
+     color: #111;
+ }
+ .countIteams span{
+    font-size: 20.8px;
+    line-height: 31.2px;
+    font-weight: 400;
+    color: #767676;
+    margin-top: 20px;
+    display: inline-block;
+ }
