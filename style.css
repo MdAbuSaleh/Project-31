@@ -1,0 +1,59 @@
+ *{
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+    font-family: 'Work Sans', sans-serif;
+ }
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+ .clear::after{
+     content: "";
+     display: block;
+     clear: both;
+ }
+ .left{
+     float: left;
+ }
+ .right{
+     float: right;
+ }
+ .container{
+     max-width: 1420px;
+     margin: auto;
+ }
+ /* Header Section */
+ .headerTop{
+     background-color: #fff;
+     height: 80px;
+ }
+ .headerLogo{
+     max-width: 30%;
+ }
+ .image{}
+ .L-text{}
+ .headerMenu{
+     max-width: 50%;
+ }
+ .menu{
+     text-align: center;
+ }
+ .menu ul{
+     list-style: none;
+ }
+ .menu ul li{
+     display: inline-block;
+ }
+ .menu ul li a{
+     display: inline-block;
+ }
+ .menu ul li a:hover{}
+ .headerBtn{
+     max-width:20%;
+ }
+ .Btn{}
